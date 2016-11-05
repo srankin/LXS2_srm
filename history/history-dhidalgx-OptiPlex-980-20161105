@@ -1,0 +1,22 @@
+    1   
+    2  history
+    3  echo " " > .bash_history
+    4  history
+    5  cd LXS2_srm
+    6  history >file
+    7  cat file
+    8  rm file
+    9  echo $hostname
+   10  echo $HOSTNAME
+   11  pwd
+   12  ls
+   13  history > history/history-$HOSTNAME
+   14  TREE
+   15  tree
+   16  date
+   17  date +%Y%m%d
+   18  history > history/history-$HOSTNAME`date +%Y%m%d`
+   19  tree
+   20  netstat -latunp
+   21  netstat -latunp | grep 22
+   22  history > history/history-$HOSTNAME-`date +%Y%m%d`
